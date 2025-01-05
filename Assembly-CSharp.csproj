@@ -59,7 +59,7 @@
     <UnityVersion>2022.3.50f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Users\SENGa\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.0.5\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Users\Sebastian\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.0.5\Analyzers\Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.50f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.50f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
@@ -70,6 +70,7 @@
     <Compile Include="Assets\Scripts\Mouse\Pan.cs" />
     <Compile Include="Assets\Scripts\Node\ContextMenuButtons.cs" />
     <Compile Include="Assets\Scripts\Node\NodeContextMenu.cs" />
+    <Compile Include="Assets\Scripts\UI\Toolbox.cs" />
     <Compile Include="Assets\Scripts\Node\Node.cs" />
   </ItemGroup>
   <ItemGroup>
