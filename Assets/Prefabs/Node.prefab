@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2077224200731274505}
   - component: {fileID: 8910792382365473483}
   - component: {fileID: 6391981264448788962}
+  - component: {fileID: 3705922224047919931}
   m_Layer: 0
   m_Name: Node
   m_TagString: Node
@@ -147,3 +148,63 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   contextMenu: {fileID: 9078872664644878618, guid: 0996850cc22564641aad7a9afb24f310, type: 3}
+--- !u!114 &3705922224047919931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818528922892143343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dab5c7d4c32e743048dfca98e2d5914f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Spline:
+    m_EditModeType: 1
+    m_Knots: []
+    m_MetaData: []
+    m_Closed: 0
+    m_IntData:
+      m_Data: []
+    m_FloatData:
+      m_Data: []
+    m_Float4Data:
+      m_Data: []
+    m_ObjectData:
+      m_Data: []
+  m_Splines:
+  - m_EditModeType: 1
+    m_Knots:
+    - Position:
+        x: 0
+        y: 0
+        z: -1
+      TangentIn:
+        x: 0
+        y: 0
+        z: -3.9999998
+      TangentOut:
+        x: 0
+        y: 0
+        z: 3.9999998
+      Rotation:
+        value:
+          x: -0.038772248
+          y: 0.9506388
+          z: -0.012360316
+          w: 0.30761963
+    m_MetaData:
+    - Mode: 2
+      Tension: 0.5
+    m_Closed: 0
+    m_IntData:
+      m_Data: []
+    m_FloatData:
+      m_Data: []
+    m_Float4Data:
+      m_Data: []
+    m_ObjectData:
+      m_Data: []
+  m_Knots:
+    m_KnotsLink: []

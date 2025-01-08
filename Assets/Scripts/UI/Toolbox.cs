@@ -17,5 +17,6 @@ public class Toolbox : MonoBehaviour
                 Instantiate(TestNode, Vector3.zero, Quaternion.identity);
                 break;
         }
+        gameObject.GetComponent<TMP_Dropdown>().value = 0;
     }
 }
